@@ -38,7 +38,7 @@ body {
     color: white;
 }
 
-.fa-sharp {
+.preebook-now {
     color: white;
     margin-left: 8px;
 }
@@ -61,11 +61,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 27px;
-    margin: 50px;
+    padding: 40px 90px;
 }
 
 .card-box {
-    padding: 18px;
+    padding: 17px;
     border-radius: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -81,8 +81,8 @@ body {
 }
 
 .card-img img {
-    width: 250px;
-    height: 150px;
+    width: 230px;
+    height: 160px;
 }
 
 .card-tital {
@@ -106,4 +106,56 @@ body {
 
 .card-detail {
     color: #787885;
+}
+
+.more {
+    color: rgba(224, 44, 109, 0.87);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.see-more {
+    margin-left: 10px;
+}
+
+/* total container part  */
+.total-container {
+    display: flex;
+    padding: 40px;
+}
+
+.total-blog-img img {
+    width: 350px;
+    height: 250px;
+}
+
+.total-blog {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+/* footer part  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    background-color: #0A0826;
+    color: white;
+    margin-top: 80px;
+}
+
+.footer-part {
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(29, 29, 29);
+    padding: 8px;
+    border-radius: 50%;
 }
