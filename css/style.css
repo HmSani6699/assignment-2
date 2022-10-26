@@ -161,71 +161,93 @@ footer {
 }
 
 /* mobile responsiv web  */
-@media only screen and (max-width: 480px) {
 
-    /* main section part  */
+@media all and (max-width:688px) {
     .main-section {
-        padding: 10px;
         flex-direction: column-reverse;
-        margin: 0px;
-    }
-
-    .blog-img {
-        height: 382px;
-        background-size: 338px;
-        margin-left: 21px;
-    }
-
-    .main-blog {
-        padding-top: 0px;
-        padding-right: 0px;
-        text-align: center;
+        align-items: center;
     }
 
     .main-taital {
-        font-size: 29px;
+        font-size: 44px;
     }
 
-    /* logo container part  */
+    .main-blog {
+        text-align: center;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    /* compani logo part  */
     .logo-container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-row-gap: 15px;
-        grid-column-gap: 5px;
-        margin: 0px;
-        margin-top: 30px;
-        padding: 10px;
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
         justify-items: center;
     }
 
-    /* card container part  */
+    /* card container  */
     .card-container {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
-        padding: 10px;
+        padding: 40px 41px;
+        justify-items: center;
     }
 
-    .card-img img {
-        width: 359px;
-        height: 250px;
-    }
-
-    /* total container part  */
+    /* total container  */
     .total-container {
         flex-direction: column-reverse;
-        padding: 10px;
+        align-items: center;
     }
 
     .total-blog {
         padding-left: 0px;
         text-align: center;
+        margin-bottom: 36px;
+    }
+}
+
+@media all and (min-width:688px)and (max-width:992px) {
+
+    /* main container  */
+    .main-section {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
-    .total-blog-img {
-        margin-top: 30px;
+    .main-taital {
+        font-size: 50px;
     }
 
-    .total-blog-img img {
-        width: 391px;
+    .main-blog {
+        text-align: center;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    /* compani logo part  */
+    .logo-container {
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    /* card container  */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 28px;
+        margin: 26px 9px;
+        justify-items: center;
+    }
+
+    /* total container  */
+    .total-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .total-blog {
+        padding-left: 0px;
+        text-align: center;
+        margin-bottom: 36px;
     }
 }
